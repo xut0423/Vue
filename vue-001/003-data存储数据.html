@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../vue.js"></script>
+
+    <script>
+
+        window.onload = function () {
+            new Vue({
+                el: 'body',//选择器
+                data: {
+                    msg: 'welcome vue',
+                    msg1: 12,
+                    msg2: true,
+                    arr: ['1', '2', '3'],
+                    json: {
+                        a: '1',
+                        b: '2',
+                        c: '3'
+                    }
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+
+    <input type="text" v-model="msg">
+    {{msg}}
+    <br>
+    {{msg1}}
+    <br>
+    {{msg2}}
+    <br>
+    {{arr}}
+    <br>
+    {{json}}
+
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+1.v-model 产生数据
+2.v-for 循环数据 value in json/(k,v) in json
+3.v-on:click 点击事件 v-on:click="add()"
+4.v-on:mouseover/v-on:mouseout 鼠标移入/移出事件
+5.v-on:mousedown 鼠标按下时事件
+6.v-on:dblclick 鼠标双击事件
+7.arrayObject.splice(i,1);//把从i开始的1个数据去掉，但没有替换任何东西，只是直接删除了
